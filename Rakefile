@@ -22,7 +22,7 @@ end
 db_namespace = namespace :db do
   desc 'create the database'
   task :create do
-    puts "Creating #{db_path}..."
+   puts "Creating #{db_path}..."
     touch db_path
   end
 
